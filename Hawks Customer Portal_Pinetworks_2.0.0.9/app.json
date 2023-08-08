@@ -1,0 +1,32 @@
+{
+  "id": "2be4bf12-bf74-437e-bd4e-1c58b2ff2588",
+  "name": "Hawks Customer Portal",
+  "publisher": "Pinetworks",
+  "version": "2.0.0.9",
+  "runtime": "7.0",
+  "showMyCode": true,
+  "target": "Cloud",
+  "application": "18.0.0.0",
+  "platform": "22.0.59371.0",
+  "contextSensitiveHelpUrl": "https://HawksCP.com/help/",
+  "dependencies": [
+    {
+      "id": "5d6d593a-332d-475d-9f7e-c3b9c41c6e13",
+      "name": "MV_UI_and_Reports",
+      "version": "2.0.0.0",
+      "publisher": "Pinetworks"
+    },
+    {
+      "id": "feb8ec89-eb6c-4040-b5d6-f9c9d869d7c4",
+      "name": "HawksPTE",
+      "version": "1.0.0.0",
+      "publisher": "Pinetworks"
+    }
+  ],
+  "idRanges": [
+    {
+      "from": 50400,
+      "to": 50419
+    }
+  ]
+}

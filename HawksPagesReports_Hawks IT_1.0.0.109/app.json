@@ -1,0 +1,51 @@
+{
+  "id": "afd22ee7-cf30-4fdd-880e-21db2a465f5e",
+  "name": "HawksPagesReports",
+  "publisher": "Hawks IT",
+  "version": "1.0.0.109",
+  "runtime": "10.0",
+  "target": "Cloud",
+  "application": "21.0.0.0",
+  "platform": "22.0.59371.0",
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true,
+    "applyToDevExtension": false
+  },
+  "features": [
+    "NOIMPLICITWITH"
+  ],
+  "dependencies": [
+    {
+      "id": "feb8ec89-eb6c-4040-b5d6-f9c9d869d7c4",
+      "name": "HawksPTE",
+      "version": "1.20.0.2023012449",
+      "publisher": "Pinetworks"
+    },
+    {
+      "id": "5d6d593a-332d-475d-9f7e-c3b9c41c6e13",
+      "name": "MV_UI_and_Reports",
+      "version": "2.87.0.202304210",
+      "publisher": "Pinetworks"
+    },
+    {
+      "id": "2be4bf12-bf74-437e-bd4e-1c58b2ff2588",
+      "name": "Hawks Customer Portal",
+      "version": "2.0.0.4",
+      "publisher": "Pinetworks"
+    },
+    {
+      "id": "576a4893-c3df-4b16-a1a5-903792b3a01e",
+      "name": "Hawsk Documents",
+      "version": "1.0.0.51",
+      "publisher": "Hawks IT"
+    }
+  ],
+  "idRanges": [
+    {
+      "from": 50000,
+      "to": 50500
+    }
+  ]
+}

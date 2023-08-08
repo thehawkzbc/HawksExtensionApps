@@ -1,0 +1,63 @@
+{
+  "id": "d9356d4e-9054-4715-a902-171e37ae0846",
+  "name": "HawksSetup",
+  "publisher": "HawksUsersetup",
+  "version": "1.0.0.3",
+  "runtime": "11.0",
+  "target": "Cloud",
+  "application": "22.0.0.0",
+  "platform": "22.0.59371.0",
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true,
+    "applyToDevExtension": false
+  },
+  "features": [
+    "NOIMPLICITWITH"
+  ],
+  "dependencies": [
+    {
+      "id": "e7aedda5-31dc-4628-98b3-f1e8339c3fad",
+      "name": "Maldives Tax Localization",
+      "version": "3.0.0.0",
+      "publisher": "Pinetworks"
+    },
+    {
+      "id": "5d6d593a-332d-475d-9f7e-c3b9c41c6e13",
+      "name": "MV_UI_and_Reports",
+      "version": "2.88.0.202304271",
+      "publisher": "Pinetworks"
+    },
+    {
+      "id": "2be4bf12-bf74-437e-bd4e-1c58b2ff2588",
+      "name": "Hawks Customer Portal",
+      "version": "2.0.0.4",
+      "publisher": "Pinetworks"
+    },
+    {
+      "id": "feb8ec89-eb6c-4040-b5d6-f9c9d869d7c4",
+      "name": "HawksPTE",
+      "version": "1.21.0.2023040253",
+      "publisher": "Pinetworks"
+    },
+    {
+      "id": "49629b9e-5628-406f-8cb5-f825b118eda0",
+      "name": "Pi_Power_Bi_Connector",
+      "version": "1.3.0.202304276",
+      "publisher": "Pinetworks"
+    },
+    {
+      "id": "0bb9e2ff-32de-4e16-9283-7fd91e003278",
+      "name": "RemoteIntegrations",
+      "version": "1.7.0.202302077",
+      "publisher": "Pinetworks"
+    }
+  ],
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 99999
+    }
+  ]
+}

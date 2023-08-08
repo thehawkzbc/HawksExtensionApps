@@ -1,0 +1,25 @@
+{
+  "id": "a1ad61d5-d366-45aa-bdc5-81d8baaa97a8",
+  "name": "Edittable",
+  "publisher": "Default publisher",
+  "version": "1.0.0.1",
+  "runtime": "11.0",
+  "target": "Cloud",
+  "application": "22.0.0.0",
+  "platform": "22.0.59371.0",
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true,
+    "applyToDevExtension": false
+  },
+  "features": [
+    "NOIMPLICITWITH"
+  ],
+  "idRanges": [
+    {
+      "from": 50000,
+      "to": 50149
+    }
+  ]
+}

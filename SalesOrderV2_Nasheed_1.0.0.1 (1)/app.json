@@ -1,0 +1,29 @@
+{
+  "id": "8e293c6c-c357-453d-a5f5-5c5cb3b33c9b",
+  "name": "SalesOrderV2",
+  "publisher": "Nasheed",
+  "version": "1.0.0.1",
+  "runtime": "9.2",
+  "target": "Cloud",
+  "application": "20.0.0.0",
+  "platform": "22.0.59371.0",
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "dependencies": [
+    {
+      "id": "016ee7d8-b2a8-41b9-b90d-5e625d8c0d0c",
+      "name": "CETAS VMP365",
+      "version": "4.0.0.26",
+      "publisher": "CETAS Information Technology"
+    }
+  ],
+  "idRanges": [
+    {
+      "from": 50000,
+      "to": 99000
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "634c52f1-5211-4c41-b7fd-4c4f6d762747",
+  "name": "InvtReports",
+  "publisher": "Hawks IT",
+  "version": "1.0.0.1",
+  "runtime": "11.0",
+  "target": "Cloud",
+  "application": "22.0.0.0",
+  "platform": "22.0.59371.0",
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true,
+    "applyToDevExtension": false
+  },
+  "features": [
+    "NOIMPLICITWITH"
+  ],
+  "idRanges": [
+    {
+      "from": 50000,
+      "to": 50149
+    }
+  ]
+}

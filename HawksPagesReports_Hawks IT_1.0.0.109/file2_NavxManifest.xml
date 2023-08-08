@@ -1,0 +1,19 @@
+<Package xmlns="http://schemas.microsoft.com/navx/2015/manifest">
+  <App Id="5d6d593a-332d-475d-9f7e-c3b9c41c6e13" Name="MV_UI_and_Reports" Publisher="Pinetworks" Brief="" Description="" Version="2.87.0.202304210" CompatibilityId="0.0.0.0" PrivacyStatement="" EULA="" Help="" HelpBaseUrl="" ContextSensitiveHelpUrl="https://businesscentral.biz" Url="" Logo="/logo/PiNetworks-Icon.png" Platform="21.0.0.0" Application="21.0.0.0" Runtime="7.0" Target="Cloud" ShowMyCode="False" />
+  <IdRanges>
+    <IdRange MinObjectId="50050" MaxObjectId="50117" />
+    <IdRange MinObjectId="50120" MaxObjectId="50149" />
+  </IdRanges>
+  <Dependencies />
+  <InternalsVisibleTo />
+  <ScreenShots />
+  <SupportedLocales />
+  <Features />
+  <PreprocessorSymbols>
+    <PreprocessorSymbol Name="CLEAN21" />
+    <PreprocessorSymbol Name="Cloud" />
+  </PreprocessorSymbols>
+  <SuppressWarnings />
+  <ResourceExposurePolicy />
+  <KeyVaultUrls />
+</Package>

@@ -1,0 +1,25 @@
+{
+  "id": "dc06bfde-13ab-4b88-8c88-afbbef8dab48",
+  "name": "TaxReports",
+  "publisher": "Hawks IT",
+  "version": "1.0.0.3",
+  "runtime": "11.0",
+  "target": "Cloud",
+  "application": "22.0.0.0",
+  "platform": "22.0.59371.0",
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true,
+    "applyToDevExtension": false
+  },
+  "features": [
+    "NOIMPLICITWITH"
+  ],
+  "idRanges": [
+    {
+      "from": 50000,
+      "to": 50999
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "d0242da0-cb1c-4a47-b2e6-b0d105a6e10c",
+  "name": "Hawks Ext1",
+  "publisher": "Hawks IT",
+  "version": "1.0.0.13",
+  "runtime": "11.0",
+  "target": "Cloud",
+  "application": "22.0.0.0",
+  "platform": "22.0.59371.0",
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true,
+    "applyToDevExtension": false
+  },
+  "features": [
+    "NOIMPLICITWITH"
+  ],
+  "dependencies": [
+    {
+      "id": "feb8ec89-eb6c-4040-b5d6-f9c9d869d7c4",
+      "name": "HawksPTE",
+      "version": "1.20.0.2023012449",
+      "publisher": "Pinetworks"
+    }
+  ],
+  "idRanges": [
+    {
+      "from": 50000,
+      "to": 50500
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "622cd49a-4981-46d6-b3b2-f170fa579df6",
+  "name": "Shopify MV",
+  "publisher": "Pinetworks",
+  "version": "1.0.4.202305280",
+  "logo": "/logo/PiNetworks-Icon.png",
+  "runtime": "8.0",
+  "target": "Cloud",
+  "application": "22.0.0.0",
+  "platform": "22.0.59371.0",
+  "contextSensitiveHelpUrl": "https://businesscentral.biz",
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "dependencies": [
+    {
+      "id": "ec255f57-31d0-4ca2-b751-f2fa7c745abb",
+      "name": "Shopify Connector",
+      "version": "22.0.54157.55468",
+      "publisher": "Microsoft"
+    }
+  ],
+  "idRanges": [
+    {
+      "from": 50890,
+      "to": 50899
+    }
+  ],
+  "preprocessorSymbols": [
+    "CLEAN22",
+    "Cloud"
+  ]
+}

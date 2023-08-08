@@ -1,0 +1,25 @@
+{
+  "id": "37ed7be1-bbc0-498a-8558-6aacacb94a1c",
+  "name": "TablesAndPages",
+  "publisher": "The Hawks IT",
+  "version": "1.0.0.4",
+  "runtime": "10.0",
+  "target": "Cloud",
+  "application": "21.0.0.0",
+  "platform": "22.0.59371.0",
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true,
+    "applyToDevExtension": false
+  },
+  "features": [
+    "NOIMPLICITWITH"
+  ],
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 50249
+    }
+  ]
+}

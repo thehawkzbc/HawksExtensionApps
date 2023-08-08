@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2016/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <AutoRefresh>0</AutoRefresh>
+  <DataSources>
+    <DataSource Name="DataSource">
+      <ConnectionProperties>
+        <DataProvider>SQL</DataProvider>
+        <ConnectString />
+      </ConnectionProperties>
+      <rd:SecurityType>None</rd:SecurityType>
+    </DataSource>
+  </DataSources>
+  <ReportSections>
+    <ReportSection>
+      <Body>
+        <Height>2in</Height>
+        <Style />
+      </Body>
+      <Width>6.5in</Width>
+      <Page>
+        <Style />
+      </Page>
+    </ReportSection>
+  </ReportSections>
+  <Code>Public Function BlankZero(ByVal Value As Decimal)
+    if Value = 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankPos(ByVal Value As Decimal)
+    if Value &gt; 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankZeroAndPos(ByVal Value As Decimal)
+    if Value &gt;= 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankNeg(ByVal Value As Decimal)
+    if Value &lt; 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+
+Public Function BlankNegAndZero(ByVal Value As Decimal)
+    if Value &lt;= 0 then
+        Return ""
+    end if
+    Return Value
+End Function
+</Code>
+  <Language>=User!Language</Language>
+  <ConsumeContainerWhitespace>true</ConsumeContainerWhitespace>
+  <rd:ReportUnitType>Inch</rd:ReportUnitType>
+  <rd:ReportID>0eeb6585-38ae-40f1-885b-8d50088d51b4</rd:ReportID>
+  <DataSets>
+    <DataSet Name="DataSet_Result">
+      <Fields>
+        <Field Name="DocumentType_PurchaseHeader">
+          <DataField>DocumentType_PurchaseHeader</DataField>
+        </Field>
+        <Field Name="DocumentDate_PurchaseHeader">
+          <DataField>DocumentDate_PurchaseHeader</DataField>
+        </Field>
+        <Field Name="No_PurchaseHeader">
+          <DataField>No_PurchaseHeader</DataField>
+        </Field>
+        <Field Name="BuyfromVendorNo_PurchaseHeader">
+          <DataField>BuyfromVendorNo_PurchaseHeader</DataField>
+        </Field>
+        <Field Name="BuyfromVendorName_PurchaseHeader">
+          <DataField>BuyfromVendorName_PurchaseHeader</DataField>
+        </Field>
+        <Field Name="GenBusPostingGroup_PurchaseHeader">
+          <DataField>GenBusPostingGroup_PurchaseHeader</DataField>
+        </Field>
+        <Field Name="PendingApprovals_PurchaseHeader">
+          <DataField>PendingApprovals_PurchaseHeader</DataField>
+        </Field>
+        <Field Name="Status_PurchaseHeader">
+          <DataField>Status_PurchaseHeader</DataField>
+        </Field>
+        <Field Name="Type_pline">
+          <DataField>Type_pline</DataField>
+        </Field>
+        <Field Name="No_pline">
+          <DataField>No_pline</DataField>
+        </Field>
+        <Field Name="LocationCode_pline">
+          <DataField>LocationCode_pline</DataField>
+        </Field>
+        <Field Name="ExpectedReceiptDate_pline">
+          <DataField>ExpectedReceiptDate_pline</DataField>
+        </Field>
+        <Field Name="Description_pline">
+          <DataField>Description_pline</DataField>
+        </Field>
+        <Field Name="PrepmtAmtInv_pline">
+          <DataField>PrepmtAmtInv_pline</DataField>
+        </Field>
+        <Field Name="PrepmtAmtInv_plineFormat">
+          <DataField>PrepmtAmtInv_plineFormat</DataField>
+        </Field>
+        <Field Name="PrepmtAmtDeducted_pline">
+          <DataField>PrepmtAmtDeducted_pline</DataField>
+        </Field>
+        <Field Name="PrepmtAmtDeducted_plineFormat">
+          <DataField>PrepmtAmtDeducted_plineFormat</DataField>
+        </Field>
+        <Field Name="PrepmtLineAmount_pline">
+          <DataField>PrepmtLineAmount_pline</DataField>
+        </Field>
+        <Field Name="PrepmtLineAmount_plineFormat">
+          <DataField>PrepmtLineAmount_plineFormat</DataField>
+        </Field>
+        <Field Name="PrepmtAmountInvLCY_pline">
+          <DataField>PrepmtAmountInvLCY_pline</DataField>
+        </Field>
+        <Field Name="PrepmtAmountInvLCY_plineFormat">
+          <DataField>PrepmtAmountInvLCY_plineFormat</DataField>
+        </Field>
+        <Field Name="PrepmtVATAmountInvLCY_pline">
+          <DataField>PrepmtVATAmountInvLCY_pline</DataField>
+        </Field>
+        <Field Name="PrepmtVATAmountInvLCY_plineFormat">
+          <DataField>PrepmtVATAmountInvLCY_plineFormat</DataField>
+        </Field>
+        <Field Name="PrepmtAmttoDeduct_pline">
+          <DataField>PrepmtAmttoDeduct_pline</DataField>
+        </Field>
+        <Field Name="PrepmtAmttoDeduct_plineFormat">
+          <DataField>PrepmtAmttoDeduct_plineFormat</DataField>
+        </Field>
+        <Field Name="UnitofMeasure_pline">
+          <DataField>UnitofMeasure_pline</DataField>
+        </Field>
+        <Field Name="Quantity_pline">
+          <DataField>Quantity_pline</DataField>
+        </Field>
+        <Field Name="Quantity_plineFormat">
+          <DataField>Quantity_plineFormat</DataField>
+        </Field>
+        <Field Name="OutstandingQuantity_pline">
+          <DataField>OutstandingQuantity_pline</DataField>
+        </Field>
+        <Field Name="OutstandingQuantity_plineFormat">
+          <DataField>OutstandingQuantity_plineFormat</DataField>
+        </Field>
+        <Field Name="QtytoInvoice_pline">
+          <DataField>QtytoInvoice_pline</DataField>
+        </Field>
+        <Field Name="QtytoInvoice_plineFormat">
+          <DataField>QtytoInvoice_plineFormat</DataField>
+        </Field>
+        <Field Name="QtytoReceive_pline">
+          <DataField>QtytoReceive_pline</DataField>
+        </Field>
+        <Field Name="QtytoReceive_plineFormat">
+          <DataField>QtytoReceive_plineFormat</DataField>
+        </Field>
+        <Field Name="UnitCost_pline">
+          <DataField>UnitCost_pline</DataField>
+        </Field>
+        <Field Name="UnitCost_plineFormat">
+          <DataField>UnitCost_plineFormat</DataField>
+        </Field>
+        <Field Name="UnitCostLCY_pline">
+          <DataField>UnitCostLCY_pline</DataField>
+        </Field>
+        <Field Name="UnitCostLCY_plineFormat">
+          <DataField>UnitCostLCY_plineFormat</DataField>
+        </Field>
+        <Field Name="AmountIncludingVAT_pline">
+          <DataField>AmountIncludingVAT_pline</DataField>
+        </Field>
+        <Field Name="AmountIncludingVAT_plineFormat">
+          <DataField>AmountIncludingVAT_plineFormat</DataField>
+        </Field>
+        <Field Name="ShortcutDimension1Code_pline">
+          <DataField>ShortcutDimension1Code_pline</DataField>
+        </Field>
+        <Field Name="QuantityReceived_pline">
+          <DataField>QuantityReceived_pline</DataField>
+        </Field>
+        <Field Name="QuantityReceived_plineFormat">
+          <DataField>QuantityReceived_plineFormat</DataField>
+        </Field>
+        <Field Name="VATProdPostingGroup_pline">
+          <DataField>VATProdPostingGroup_pline</DataField>
+        </Field>
+        <Field Name="CurrencyCode_pline">
+          <DataField>CurrencyCode_pline</DataField>
+        </Field>
+        <Field Name="Order_Date_pline">
+          <DataField>Order_Date_pline</DataField>
+        </Field>
+        <Field Name="CIT_Special_Remarks_pline">
+          <DataField>CIT_Special_Remarks_pline</DataField>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>DataSource</DataSourceName>
+        <CommandText />
+      </Query>
+    </DataSet>
+  </DataSets>
+</Report>

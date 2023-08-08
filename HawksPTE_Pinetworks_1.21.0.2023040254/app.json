@@ -1,0 +1,47 @@
+{
+  "id": "feb8ec89-eb6c-4040-b5d6-f9c9d869d7c4",
+  "name": "HawksPTE",
+  "publisher": "Pinetworks",
+  "version": "1.21.0.2023040254",
+  "runtime": "9.0",
+  "target": "Cloud",
+  "application": "20.0.0.0",
+  "platform": "22.0.59371.0",
+  "contextSensitiveHelpUrl": "https://HawksPTE.com/help/",
+  "applicationInsightsConnectionString": "InstrumentationKey=8bdb789a-9888-49c8-b919-0c85c2f4e49e;IngestionEndpoint=https://southeastasia-0.in.applicationinsights.azure.com/;LiveEndpoint=https://southeastasia.livediagnostics.monitor.azure.com/",
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "dependencies": [
+    {
+      "id": "5d6d593a-332d-475d-9f7e-c3b9c41c6e13",
+      "name": "MV_UI_and_Reports",
+      "version": "2.37.0.0",
+      "publisher": "Pinetworks"
+    },
+    {
+      "id": "016ee7d8-b2a8-41b9-b90d-5e625d8c0d0c",
+      "name": "CETAS VMP365",
+      "version": "4.0.0.40",
+      "publisher": "CETAS Information Technology"
+    },
+    {
+      "id": "23ebd065-b289-4a68-85e3-b8410e360157",
+      "name": "SharePoint Connector",
+      "version": "2.0.0.118",
+      "publisher": "E Foqus Canada Inc."
+    }
+  ],
+  "idRanges": [
+    {
+      "from": 50150,
+      "to": 50189
+    },
+    {
+      "from": 50191,
+      "to": 50199
+    }
+  ]
+}
